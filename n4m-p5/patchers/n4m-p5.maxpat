@@ -40,12 +40,12 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"id" : "obj-3",
-					"linecount" : 6,
+					"linecount" : 7,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 240.0, 143.0, 316.0, 87.0 ],
-					"text" : "1. click 'script start'\n2. open index.html in the Chrome/Chromium Browser\n3. move mouse in browser screen and see pictslider in max-patch change\n4. see colors of circle change by the [p drunkColor] sending values to the p5 sketch."
+					"patching_rect" : [ 240.0, 143.0, 316.0, 100.0 ],
+					"text" : "1. click 'script start'\n2. open index.html in the Chrome/Chromium Browser (under n4m-p5/code/p5)\n3. move mouse in browser screen and see pictslider in max-patch change\n4. see colors of circle change by the [p drunkColor] sending values to the p5 sketch."
 				}
 
 			}
@@ -405,6 +405,8 @@
 					"saved_object_attributes" : 					{
 						"autostart" : 1,
 						"defer" : 0,
+						"node_bin_path" : "",
+						"npm_bin_path" : "",
 						"watch" : 1
 					}
 ,
@@ -479,7 +481,7 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "index.js",
-				"bootpath" : "~/Desktop/n4m-p5/code",
+				"bootpath" : "~/Drive/work/code/max/major_projects/n4m-p5/n4m-p5/code",
 				"patcherrelativepath" : "../code",
 				"type" : "TEXT",
 				"implicit" : 1
